@@ -4,9 +4,11 @@ import { ExperienceBar } from './components/ExperienceBar'
 import './styles/global.css'
 
 function App() {
-  const [currenXP, setCurrenXP] = useState(0);
+  const [currentXP, setCurrenXP] = useState(0);
   function incrementa() {
-    setCurrenXP(currenXP + 10)
+    if (currentXP <= 590) {
+      setCurrenXP(currentXP + 10)
+    }
   }
   function reset() {
     setCurrenXP(0)
@@ -14,7 +16,7 @@ function App() {
 
   return (
     <div className='container' >
-      <ExperienceBar currentXP={currenXP} ></ExperienceBar>
+      <ExperienceBar currentXP={currentXP} ></ExperienceBar>
       <button className='button-xp' onClick={incrementa} >Incrementa XP</button>
       <button className='button-xp' onClick={reset} >Zera XP</button>
     </div>

@@ -15,8 +15,6 @@ export function Profile() {
           Level {level}
         </p>
       </div>
-      <button style={{ background: 'blue' }}>Texto do botão</button>
-      <button style={{ background: 'blue', color: 'yellow' }}>Texto do botão</button>
     </div>
   );
 }

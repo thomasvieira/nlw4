@@ -74,8 +74,8 @@ export function ChallengesProvider({
       new Notification('Hora de se exercitar', {
         body: `Valendo ${challenge.amount}xp: ${challenge.description}`,
         icon: '/favicon.png',
-        // requireInteraction: true,
-        // image: `/${challenge.type}.png`
+        requireInteraction: true,
+        //image: `/${challenge.type}.png`
       })
     }
   }

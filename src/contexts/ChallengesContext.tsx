@@ -72,10 +72,10 @@ export function ChallengesProvider({
 
     if (Notification.permission === 'granted') {
       new Notification('Hora de se exercitar', {
-        body: `Valendo ${challenge.amount}xp: ${challenge.description} \r \r`,
-        icon: '/favicon.png',
-        requireInteraction: true,
-        image: `/${challenge.type}.png`
+        body: `Valendo ${challenge.amount}xp: ${challenge.description}`,
+        //icon: '/favicon.png',
+        // requireInteraction: true,
+        // image: `/${challenge.type}.png`
       })
     }
   }

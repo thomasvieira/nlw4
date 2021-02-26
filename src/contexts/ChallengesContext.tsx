@@ -75,7 +75,7 @@ export function ChallengesProvider({
         body: `Valendo ${challenge.amount}xp: ${challenge.description}`,
         icon: '/favicon.png',
         requireInteraction: true,
-        //image: `/${challenge.type}.png`
+        image: `/${challenge.type}.png`
       })
     }
   }

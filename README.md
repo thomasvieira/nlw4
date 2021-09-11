@@ -38,6 +38,7 @@ Os erros serão exibidos no console.
 
 Este projeto está sob licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para maiores detalhes.
 
+## Agradecimentos
 
 * Agradecimento especial ao [Diego Fernandes](https://github.com/diego3g)
 * E a todo o time da [Rocketseat](https://rocketseat.com.br/)
